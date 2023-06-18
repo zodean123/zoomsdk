@@ -1,0 +1,53 @@
+#zmmtg-root {
+  display: none;
+}
+
+.App {
+  width: 500px;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.join-meeting-button {
+  background-color: rgb(139, 139, 139);
+  padding: 5px 10px;
+  color: white;
+}
+
+.join-meeting-button:hover {
+  cursor: pointer;
+}
+
+.meeting-header {
+  background-color: rgb(31, 86, 168);
+  padding: 10px 20px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+  margin-bottom: 0;
+  color: white;
+}
+
+.meeting-container {
+  display: flex;
+  background-color: rgb(228, 228, 228);
+  padding: 35px 20px 20px 20px;
+}
+
+.meeting-container input {
+  padding: 10px 15px;
+  border-radius: 2px;
+  border: 1px solid rgba(187, 181, 181, 0.979);
+}
+
+.action-continer button {
+  padding: 10px 15px;
+  width: 100%;
+  background-color: rgb(110, 117, 128);
+  color: white;
+  border-radius: 4px;
+}
+
+.action-continer {
+  background-color: rgb(228, 228, 228);
+  padding: 20px 20px 30px 20px;
+  border-radius: 0px 0px 8px 8px;
+}
